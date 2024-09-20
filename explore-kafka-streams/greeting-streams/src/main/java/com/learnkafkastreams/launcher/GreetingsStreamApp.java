@@ -27,7 +27,7 @@ public class GreetingsStreamApp {
         try {
             kafkaStreams.start();
         } catch (Exception e) {
-            log.error("Exception in starting the stream" + e.getMessage(), e);
+            log.error("Exception in starting the kafka stream" + e.getMessage(), e);
         }
 
     }
